@@ -4,7 +4,6 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-/// <reference path="../node_modules/@types/node/index.d.ts" />
 'use strict';
 
 import { Observable, Observer } from 'rxjs';
