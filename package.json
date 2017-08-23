@@ -1,0 +1,38 @@
+{
+  "name": "rx-without",
+  "version": "1.0.0",
+  "description": "Observable operator to create observable a without events from observable b.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/index.js",
+    "build": "tsc",
+    "serve": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nullpub/rx-without.git"
+  },
+  "peerDependencies": {
+    "rxjs": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.24",
+    "rxjs": "^5.4.3",
+    "ts-node": "^3.3.0",
+    "nodemon": "^1.11.0",
+    "typescript": "^2.4.2"
+  },
+  "keywords": [
+    "rxjs",
+    "observables",
+    "relative",
+    "complement"
+  ],
+  "author": "Brandon Blaylock (brandon@null.pub)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/nullpub/rx-without/issues"
+  },
+  "homepage": "https://github.com/nullpub/rx-without#readme"
+}
